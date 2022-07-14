@@ -1,5 +1,4 @@
 {
-	"name": "@{{project_name}/scripts",
-	"type": "module",
-	"dependencies": {}
+	"name": "@tsconfig-paths-workspace/scripts",
+	"type": "module"
 }
