@@ -18,7 +18,7 @@
 	},
 	"exports": {
 		".": "./src/index.ts",
-		"./*": "./src/*"
+		"./register": "./src/register.js"
 	},
 	"scripts": {
 		"build": "node-ts ./scripts/build.ts",
