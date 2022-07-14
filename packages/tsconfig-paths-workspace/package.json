@@ -1,0 +1,30 @@
+{
+	"name": "tsconfig-paths-workspace",
+	"version": "0.0.0",
+	"description": "tsconfig-paths support for workspaces.",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/leonzalion/tsconfig-paths-workspace.git"
+	},
+	"homepage": "https://github.com/leonzalion/tsconfig-paths-workspace#readme",
+	"author": {
+		"name": "Leon Si",
+		"email": "contact@leonzalion.com",
+		"url": "https://leonzalion.com"
+	},
+	"exports": "./src/index.ts",
+	"scripts": {
+		"build": "node-ts ./scripts/build.ts",
+		"start": "node-ts ./src/index.ts"
+	},
+	"devDependencies": {
+		"execa": "^5.1.1",
+		"vitest": "latest"
+	},
+	"dependencies": {
+		"find-up": "^5.0.0",
+		"is-path-inside": "^3.0.3",
+		"tsconfig-paths": "^4.0.0"
+	}
+}
