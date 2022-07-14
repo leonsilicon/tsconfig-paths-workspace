@@ -1,6 +1,6 @@
 {
 	"name": "tsconfig-paths-workspace",
-	"version": "0.0.2",
+	"version": "0.1.0",
 	"description": "tsconfig-paths support for workspaces.",
 	"license": "MIT",
 	"lionp": {
