@@ -3,6 +3,9 @@
 	"version": "0.0.0",
 	"description": "tsconfig-paths support for workspaces.",
 	"license": "MIT",
+	"lionp": {
+		"tests": false
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/leonzalion/tsconfig-paths-workspace.git"
