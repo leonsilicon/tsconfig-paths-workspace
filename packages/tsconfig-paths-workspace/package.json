@@ -29,5 +29,8 @@
 		"find-up": "^5.0.0",
 		"is-path-inside": "^3.0.3",
 		"tsconfig-paths": "^4.0.0"
+	},
+	"publishConfig": {
+		"directory": "dist"
 	}
 }
